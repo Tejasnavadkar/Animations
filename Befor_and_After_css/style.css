@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: white;
+}
+
+h1::before{  /* this pseudo elements append elements virtually during */
+    content: "hii ";
+    color: red;
+}
+h1::after{
+    content: " how are you";
+    color: red;
+}
